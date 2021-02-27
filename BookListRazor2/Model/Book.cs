@@ -8,12 +8,12 @@ namespace BookListRazor2.Model
     public class Book
     {
 
-        [key]
+        //[key]
 
         public int Id { get; set; }
 
-        [required]
-        public string Book { get; set; }
+       // [required]
+        public string Books { get; set; }
         public string Author { get; set; }
     }
 }
